@@ -1,0 +1,107 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body {
+    background-color: black;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+  }
+.maindiv{
+    background-color: hsl(0, 100%, 74%);
+    background-image: url("images/bg-intro-desktop.png");
+    height: 500px;
+    width: 900px;
+    float:left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left_div{
+    background-color: transparent;
+    float: left;
+    height: 500px;
+    width: 450px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 auto; */
+}
+.right_div{
+    background-color: transparent;
+    float: right;
+    height: 500px;
+    width: 450px;
+    padding-top: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    /* margin: 0 auto; */
+}
+.h1{
+    text-align: left;
+    padding-top: 150px;
+    padding-left: 90px;
+    color: white;
+    font-family: Poppins;
+    font-weight: bolder;
+}
+.p1{
+    text-align: left;
+    padding-left: 90px;
+    color: white;
+}
+.right_up{
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    border-radius: 5px;
+    width: 350px;
+    height: auto;
+    text-align: center;
+    padding-bottom: 1.25em 1em;
+}
+.right_down{
+    background-color: white;
+    width: 350px;
+    border-radius: 5px;
+}
+.right_in{
+    /* width: 100%; */
+    padding: 12px 20px;
+}
+input{
+    padding: 12px;
+    display: block;
+}
+.right{
+    padding: 2em;
+    width: 50%;
+}
+.button{
+    background-color: hsl(154, 59%, 51%);
+    border: 0;
+    border-radius: 5px;
+    padding: 12px 20px;
+    color: white;
+    width: 100%;
+    
+}
+button:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+b{
+    color: red;
+    }
+.pb{
+    color: hsl(246, 25%, 77%);
+    font-size: 10px;
+    padding-bottom: 20px;
+}
