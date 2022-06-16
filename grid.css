@@ -3,7 +3,7 @@
     padding: 0;
   }
   body {
-    background-color: rgb(7, 7, 34);
+    background-color: black;
     text-align: center;
     min-height: 100vh;
     width: 700px;
@@ -20,7 +20,10 @@
     gap: 10px;
     padding-top: 10em;
   }
-  
+  .a{
+    color: white;
+    font-size: 20px;
+  }
   .grid-a {
     background-color: rgb(241, 69, 69);
     grid-area: a;

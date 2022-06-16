@@ -80,6 +80,11 @@ input{
     padding: 12px;
     display: block;
 }
+.a{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
 .right{
     padding: 2em;
     width: 50%;
